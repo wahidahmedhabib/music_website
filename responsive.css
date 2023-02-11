@@ -1,0 +1,272 @@
+@media (max-width:590px) {
+
+    .nav_bar {
+        background: #152cac;
+        background-image: linear-gradient(10deg, rgb(23, 23, 172), #000000, rgb(17, 17, 185));
+        height: 12vh;
+        width: 100vw;
+        padding: 0 25px;
+        padding-right: 40px;
+        color: #fff;
+        border-bottom: 2px solid rgb(40, 3, 124);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+
+        /* position: fixed; */
+        /* z-index: 2; */
+    }
+
+    .logo {
+        font-size: 1.5em;
+        font-weight: bold;
+        height: 10vh;
+        width: 35vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .menu_bar {
+        display: none;
+    }
+
+    .menu_icon {
+        height: 32px;
+        display: block;
+        font-weight: bold;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    .menu_icon:hover {
+        font-size: 32px;
+        /* border: solid; */
+        transition: ease-in all .2s;
+    }
+
+    .main {
+        height: 80vh;
+        width: 100vw;
+        background: #ccbaba;
+        background-image: url("imges/bg444.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        color: #ffffff;
+
+    }
+
+    .main img {
+        height: 70vh;
+        width: 120vw;
+        position: relative;
+        right: -15px;
+        bottom: -45px;
+    }
+
+    .container {
+        height: 75vh;
+        width: 100vw;
+        color: #fff;
+        background-image: url("imgess/ppp1.png");
+        background-image: linear-gradient(45deg, rgb(33, 42, 223), #0a0161, rgb(72, 25, 202));
+        margin: 0 auto;
+        padding: 0 10vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0px;
+    }
+
+    .line_1 {
+        font-size: 2em;
+        font-weight: bold;
+        margin: 5px 0;
+    }
+
+    .line_2 {
+        font-weight: bold;
+        text-align: center;
+
+    }
+
+    .line_3 {
+
+        font-size: 1.3em;
+        margin: 0 auto;
+        text-align: center;
+        margin: 5px;
+    }
+
+    .btn button {
+        background: rgb(255, 21, 21);
+        height: 7vh;
+        width: 30vw;
+        font-size: 1em;
+        font-weight: bold;
+        color: #fff;
+        transition: .3s all ease-in;
+
+    }
+
+    .txt11 {
+        background: #ffffff;
+        height: 80vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0 10vw;
+        gap: 20px;
+    }
+
+    .read_btn {
+        background: #440058;
+        height: 40px;
+        width: 150px;
+        color: #fff;
+        transition: all .3s ease-in;
+        font-size: 18px;
+    }
+
+    .ipad_box {
+        background-color: #2b2761;
+        background-image: linear-gradient(45deg, rgb(15, 16, 71), #08129e, rgb(19, 3, 77));
+        min-height: 200vh;
+        width: 100vw;
+        display: flex;
+        /* flex-direction: column; */
+    }
+
+    .ipad1 {
+        margin: 0 auto;
+        min-height: 200vh;
+        width: 70vw;
+        border: 5px solid rgb(201, 196, 196);
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .pic {
+        height: 30vh;
+        /* background: #a87373; */
+        width: 55vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* border: solid; */
+        border-radius: 5px;
+    }
+
+    .pic6 img,
+    .pic5 img {
+        height: 30vh;
+        width: 50vw;
+
+    }
+
+    .card_section {
+        height: 90vh;
+        width: 90vw;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* border: solid; */
+    }
+
+    .card_pic {
+        background-image: url("imges/card111.png");
+        /* background-position: 50%; */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 40vh;
+        width: 65vw;
+        /* border: solid; */
+        /* background: #7a5858; */
+    }
+
+    .card_about {
+        height: 50vh;
+        width: 75vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+        /* border: solid; */
+
+    }
+
+    .ftr_upr {
+        height: 80vh;
+        width: 100vw;
+        background: #160064;
+        margin-top: 50px;
+        padding-top: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    .upr1,
+    .upr2,
+    .upr3,
+    .upr4 {
+        color: #fff;
+        padding-right: 20px;
+        height: 40vh;
+        width: 40vw;
+    }
+
+    .upr1 h1,
+    .upr2 h1,
+    .upr3 h1,
+    .upr4 h1 {
+        font-size: 1.1em;
+        border-bottom: 1px solid;
+        margin-bottom: 20px;
+
+    }
+
+    .upr1 ul li,
+    .upr2 ul li,
+    .upr3 ul li,
+    .upr4 ul li {
+        list-style: none;
+        margin: 5px 0;
+        font-size: 20px;
+    }
+
+    .botm_bar {
+        height: 10vh;
+        width: 100vw;
+        background: #330950;
+        background: #18065c;
+        font-size: 1.2em;
+        font-weight: bold;
+        border-top: #151a69 2px solid;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+}
